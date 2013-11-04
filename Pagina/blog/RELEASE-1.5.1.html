@@ -1,0 +1,323 @@
+<html>
+<head>
+    <title>CuteNews Release Notes</title>
+    <style type="text/css">
+        body pre { font-family: "Monospace", "Courier new", serif; font-size: 14px; line-height: 1.25em; }
+        code { color: #000080; font-weight: bold; }
+    </style>
+</head>
+<body><pre>
+
+CuteNews 1.5.3 release notes.
+
+1.0 Requirements
+
+    - PHP 4.1.0 version is desired. Please use the older versions at your own risk;
+    - There is &ldquo;iconv&rdquo; library available, in case of using a charset different from UTF-8.
+________________________________________________________________________________________________________________________
+
+2.0 Safety improvements
+
+A   In order to authenticate and verify the security algorithm used XXTEA session Cookies. The essence of the method
+    implementation:
+
+    1. In the session is added REMOTE_ADDR to block repeated requests;
+    2. Serialize $_SESS array into serialized string;
+    3. Serialized string is encrypted using a randomly selected XXTEA with &ldquo;salt&rdquo; for the site;
+    4. Encrypting a string is passed to the Cookies named `session`.
+
+    What it gives?
+
+    Protection against CSRF and open view of identification user data. In order to properly encrypt data and send them
+    fraudulent manner, you need a &ldquo;salt&rdquo; and the IP address of the sender. Salt is unique for each site and set consists
+    of a 512-bit encryption. The probability of selection of the cipher salt is actually zero. Each time you update a
+    random number issued to confirm the return to the user, which is stored in an encrypted session.
+
+    You also cannot resend the same token to another IP-address, since the encrypted data is IP-address of the sender
+    and any attempt to send the wrong line leads to unlogin.
+
+    However, nothing can protect any data from the session, and &ldquo;listening&rdquo; to, if not using a secure https-connection.
+    To install it you have to buy a registrar certificate for your domain. Read more here
+    http://en.wikipedia.org/wiki/HTTP_Secure
+
+B   CAPTCHA
+
+    The main problem in the web space is still spam. For writing news comments and for account registration captcha has
+    been added, which uses session encryption mechanism through the Cookies, so that hacking by robot is impossible,
+    too. The information is stored securely.
+
+C   A function cleaning almost every XSS written by an offender in the comments or posts has been created.
+
+D   Enhanced protection from the folder view with .htaccess has been added.
+________________________________________________________________________________________________________________________
+
+3.0 Installation procedure
+
+    The latest version of CuteNews features a more convenient and simplified installation procedure. To install scripts
+    onto the server just take the following steps:
+
+    3.1 Create a folder for CuteNews (cnews, for instance);
+    3.2 Upload all files into this folder;
+    3.3 Set up the script from the specified folder(yourdomain.com/cnews, for instance);
+    3.4 Fill in the administrator fields (login, password, email)
+________________________________________________________________________________________________________________________
+
+4.0 Instruction on how to upgrade CuteNews from the older versions
+
+    3.1 Install Cutenews in the specified folder;
+    3.2 Try to login.
+________________________________________________________________________________________________________________________
+
+5.0 The use of embedded code
+
+    CuteNews has been designed to provide the most convenient process of embedding code into the site.
+    The server must support PHP to run the script. The launch is to be made in a file of php extension accordingly.
+
+    An example of embedding code:
+
+    /folder/where/located/yourfile.php
+
+        +---------------------------------------------------+
+        | &lt;html> &lt;head> .... &lt;body> ... YOUR SITE           |
+        | ...                                               |
+        | &lt;?php CN_INCLUDE1; ?>                             |
+        | ...                                               |
+        |                         +----------------------+  |
+        | Content                 | &lt;?php CN_INCLUDE2;?> |  |
+        | Content                 |                      |  |
+        | Content                 |                      |  |
+        |                         |                      |  |
+        |                         +----------------------+  |
+        |                                                   |
+        | +-----------------------------------------------+ |
+        | + Footer         &lt;?php CN_INCLUDE3;?>           + |
+        | +-----------------------------------------------+ |
+        +---------------------------------------------------+
+
+    Page layout is selected arbitrarily here. There are three CN_INCLUDE blocks. Every block is placed separately and it
+    shows a defined template, which was selected in the parameters of its show. For example, CN_INCLUDE1 block shows
+    full type news, CN_INCLUDE2 - static news, CN_INCLUDE3 - archives of the headlines pattern.
+
+    When clicking the &ldquo;Read More&rdquo; or &ldquo;Comments&rdquo; links, the usual page update is provided, but with the transfer of other
+    parameters.
+
+    If the module is static, then the changes in his body will not happen; if it is dynamic, as CN_INCLUDE1, the
+    corresponding content will be shown. This means that if there is subaction=showcomments in a GET-query, the template
+    will be changed to full news with comments.
+
+    This is the simplest way to embed news. If you are an experienced php user, you can make more changes in the same
+    block, as well as modify block options depending on the data taking from the GET/POST query.
+
+
+5.1 How to embed news
+
+    First of all, check the files and folders structure on the server. It is better to use absolute paths, if possible.
+
+    For example:
+
+    - /home/userdir/www/news/           - There is code of the CuteNews Administration Panel saved in this folder.
+    - /home/userdir/www/my_script.php   - This folder contains script, which we call.
+
+    my_script.php:
+
+        <code>&lt;html>&lt;body>&lt;h1>Hi, World!&lt;/h1> &lt;?php include ('/home/userdir/www/news/show_news.php'); ?> &lt;/body>&lt;/html></code>
+
+    Using this example code, you will call the correct script and the build-in news will be successfully displayed.
+    Please note that the script show_news.php can't be called directly! In the case of calling it directly you will
+    face the 503 error.
+
+
+5.2 Options for embedding news
+
+    Before to turn on the show_news.php script the following options can be set:
+
+    $_GET['ucat']       - news category index. Show news from the specified categories only;
+    $static             - allows to show only active news;
+    $category           - list of allowed categories;
+    $template           - template name;
+    $reverse            - show news in the reverse order;
+    $sortbylastcom      - order news by last comment;
+    $archive            - use archive ID;
+    $only_active        - if =true is selected, only active news without archives are shown;
+    $number             - number of news (there are 10 by default);
+    $no_prev            - if =true is selected, do not use &lt;&lt; Prev link;
+    $no_next            - if =true is selected, do not use Next >> link;
+    $start_from         - skip some news by specific number;
+    $static_path        - set the static paths of all the links (e.g. comments link, fullstory link, etc) included in
+                          the show_news.php;
+
+    $user_by            - if this option is selected, only news of specified user will be shown;
+
+
+5.3 Archives
+
+    Archives are displayed in the same way as news. In the absence of the $archive option a list of archives will be
+    displayed. It is important to remember that the embedded code with the archives will display full story, if certain
+    parameters are passed.
+
+    It is recommended to hidden the direct code inclusion with archives and to install static=true, if it is placed in
+    the sidebar.
+
+    For example:
+
+        The code <code>&lt;?php include ('show_archives.php'); ?></code> is embedded into the sidebar.
+        If you click the &ldquo;Read more&rdquo; link, the full news will  be displayed in the sidebar instead of list of archives.
+
+5.4 RSS
+
+    RSS feed can be configured via Administration Panel in the Options > Integration Wizards >
+    RSS Setup and Integration.
+
+    It is necessary to follow the instructions which are presented in the Wizards.
+________________________________________________________________________________________________________________________
+
+5.5 Embedding search form
+
+    This can be done in two ways:
+
+    1) By using the code <code>&lt;?php include('search.php'); ?></code>
+
+        If =true for the $search_form_hide option is selected before include('search.php'), the form of the search
+        query will not be displayed in search results.
+
+    2) By placing an arbitrary search form  anywhere
+
+        <code>&lt;form action="url_where_the code_is"> and insert this code where you want to see the search results:
+        &lt;?php if ($_REQUEST['do'] == "search" or $_REQUEST['dosearch'] == "yes")
+                 { $subaction = "search"; $dosearch = "yes"; include("search.php"); } ?></code>
+
+    Once the values  $do = 'search' и dosearch = 'yes' have been shown in the URL- or Post query, search results will
+    be displayed.
+
+5.6 Facebook comments form
+
+    To start using this form you need to add your Facebook AppID to the Options > System Configurations > Facebook.
+
+    It is possible to embed Facebook comments form by adding the following META-tag:
+
+        <code>&lt;meta property="fb:admins" content="012345678901234"/></code>
+
+    inside the &lt;head> tag to the template displayed on the web site. Where 012345678901234 is a numeric user ID on
+    Facebook. Embedding this meta tag allows you to administer comments.
+
+5.7 Custom date formatting
+
+    Insert code {month} into the template - the month will be shown in English.
+
+    Or use {month|jan,feb,....,dec} - listing of the months' titles is required.
+________________________________________________________________________________________________________________________
+
+6.0 Internal hooks and their use
+
+    This section is for developers only.
+________________________________________________________________________________________________________________________
+
+7.0 Plug-ins
+
+    Plug-in files are loaded from the folder ./cdata/plugins every time you call a page that uses the CuteNews engine.
+    It is necessary to register internal hooks for plug-ins by using the callback-functions.
+
+    Use add_hook function to add a hook:
+
+    <code>&lt;?php // Plug-in code
+        add_hook('system_modules_expand', 'myPluginSystem');
+        function myPluginSystem($modules) { return $modules; }
+    ?></code>
+
+    myPluginSystem function won't work properly without adding a hook.
+
+    All plugins located at /cdata/plugins directory with *.php extension.
+________________________________________________________________________________________________________________________
+
+8.0 Standard forms for the web site news construction
+
+    The preliminary testing information: CuteNews is installed in the catalog: /home/yoursite/www/cnews.
+
+
+8.1 The simplest form
+
+    Script location: yoursite.com/index.php
+    Code:
+
+        ...
+        <code>&lt;?php include ('cnews/show_news.php'); ?></code>
+        ...
+
+    This allows to show the active news. By clicking the comments form or the &ldquo;Read more&rdquo; link you will see the full
+    text of an article with the comments.
+
+
+8.2 News are displayed in another folder
+
+    Absolute server path:   /home/yoursite/www/
+    Script location:        yoursite.com/mynews/index.php
+
+    Code:
+
+        ...
+        <code>&lt;?php include ('/home/yoursite/www/cnews/show_news.php'); ?></code>
+        ...
+
+    This allows to show active news in the same folder from which they are called.
+
+
+8.3 Display news from every block at the main web page.
+
+    For example, the box with Headlines templates is available in the sidebar or footer. These blocks can be called by
+    using the $static = true option. It is necessary to display news at the main web page by clicking the Sidebar link.
+
+    File 1:
+
+        Absolute server path:   /home/yoursite/www/
+        Script location:        yoursite.com/pages/lines/index.php
+
+        Code embedded in the sidebar:
+
+        <code>&lt;?php $static = true;
+              $static_path = '/index.php';
+              $template = 'Headlines';
+              include ('/home/yoursite/www/cnews/show_news.php'); ?></code>
+
+    File 2:
+
+        Absolute server path:   home/yoursite/www/
+        Script location:        yoursite.com/index.php
+
+        Code embedded in the sidebar:
+
+            <code>&lt;?php include ('/home/yoursite/www/cnews/show_news.php'); ?></code>
+
+8.4 The search form is embedded in the sidebar, but you need to display search results in the news block:
+
+    <code>&lt;form action="URL, where you want the search results to be displayed">
+
+        &lt;input type="hidden" name="dosearch" value="yes" />  &lt;!-- indication of $dosearch option required -->
+        &lt;input type="text" name="story" value="" />          &lt;!-- specify the search form -->
+
+    &lt;/form></code>
+
+    In the script where search is being performed allow search by dosearch
+
+        <code>&lt;?php if ( isset($_REQUEST['dosearch']) && $_REQUEST['dosearch'] = 'yes')
+                   include ('/home/yoursite/www/cnews/search.php'); ?></code>
+
+    If hidden of the search form is required, you will need to add $search_form_hide:
+
+        <code>&lt;?php if ( isset($_REQUEST['dosearch']) && $_REQUEST['dosearch'] = 'yes')
+                 {
+                    $search_form_hide = true;
+                    include ('/home/yoursite/www/cnews/search.php');
+                 } ?></code>
+________________________________________________________________________________________________________________________
+
+9.0 Administration Panel
+
+9.1 Following new options added:
+
+    9.1.1 Report Bug Dump -- Saves and send CuteNews dump
+    9.1.2 User logs -- Users authorization logs
+    9.1.3 Hooks and plug-ins -- Internal hooks and plug-ins control
+    9.1.4 Word replacement -- Word replacement uses the regular expressions
+    9.1.5 Additional fields -- Additional fields to the news editing
+
+</pre></body></html>

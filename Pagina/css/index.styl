@@ -1,0 +1,110 @@
+@import 'modern.css'
+@import 'style2.css'
+@import 'style.styl'
+
+
+a
+	color white
+#slider
+	width 100%
+	height 300px
+	background-color #f1f1f1
+	overflow hidden
+	padding 1em
+
+.divisores
+	display inline-block
+	width 100%
+	margin-bottom  1em
+	position relative
+	padding 7px
+#about,#description
+	display inline-block
+	vertical-align top
+	width 48.6%
+	margin-top 0em
+#description
+	margin-left 20px
+#container-divisors
+	width 100%
+	margin-top 1.5em
+	.servicios
+		display inline-block
+		vertical-align top
+		width 31.5%
+		padding 5px;
+		min-height 320px 
+		img
+			width 100%
+			height 190px
+
+.menu,.nav-bar-inner
+	background-color bg
+.menu
+	font-size 16px
+
+.icon
+	font-size 50px
+	margin-left 10px
+	color #fff
+	float right 
+
+#distinciones
+	li
+		margin-bottom 1em
+@media screen and (max-width: 960px)
+	#about,#description
+		width 48.28%
+	#container-divisors
+		.servicios
+			width 31.2%
+			min-height 310px 
+			img
+				height 160px
+
+@media screen and (max-width: 830px)
+	#about,#description
+		display block
+		width 100%
+		margin-bottom 1em
+	#description
+		margin-left 0px
+	#container-divisors
+		width 100%
+		margin-top 1.5em
+		.servicios
+			display block
+			width 100%
+			padding 5px;
+			img
+				height auto
+	#slider
+		height 250px
+		.da-slide 
+			left 0%
+			p
+				font-size 18px
+				top 50px
+			h2
+				font-size 32px
+			.da-img
+				width 100px
+				img
+					width 130px
+
+@media screen and (max-width :420px)
+	#slider
+		height 240px
+		.da-slide 
+			p
+				width 80%
+				height auto
+				font-size 16px
+			img
+				display none
+
+		
+
+
+
+

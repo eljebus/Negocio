@@ -1,0 +1,11 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+DirectoryIndex index.php   
+order deny,allow
+ErrorDocument 404 /noencontrado.html
+RewriteEngine on 
+RewriteRule inicio/$ index.php
+RewriteRule ^(.*)/$ Driver.php?vista=$1
+
+

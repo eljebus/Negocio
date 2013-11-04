@@ -1,0 +1,1285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"SELECT	Tag"
+			],
+			[
+				"fi",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"D",
+				"div"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"ad",
+				"aside	Tag"
+			],
+			[
+				"SE",
+				"SECTION	Tag"
+			],
+			[
+				"boc",
+				"block"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"sr",
+				"servicios"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"s",
+				"span	Tag"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"la",
+				"lat"
+			],
+			[
+				"ge",
+				"geocoder"
+			],
+			[
+				"lonla",
+				"lonlat"
+			],
+			[
+				"lo",
+				"lonlat"
+			],
+			[
+				"TO",
+				"toProjection"
+			],
+			[
+				"lon",
+				"lonlat"
+			],
+			[
+				"lat",
+				"latLng"
+			],
+			[
+				"dire",
+				"direccion"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"MAR",
+				"margin-bottom"
+			],
+			[
+				"FON",
+				"font-weight"
+			],
+			[
+				"fech",
+				"fechaFinal"
+			],
+			[
+				"dife",
+				"diferencia"
+			],
+			[
+				"fec",
+				"fechaFinal"
+			],
+			[
+				"die",
+				"diferenciaSegundos"
+			],
+			[
+				"fecha",
+				"fechaActual"
+			],
+			[
+				"di",
+				"diferenciaHoras2"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"Fecha",
+				"Fecha_final"
+			],
+			[
+				"ut",
+				"utf8_encode"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"es",
+				"estado"
+			],
+			[
+				"co",
+				"comienzo"
+			],
+			[
+				"ini",
+				"Inicio"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"magi",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"Fecha_",
+				"Fecha_inicio"
+			],
+			[
+				"cr",
+				"cursor"
+			],
+			[
+				"direc",
+				"direction-buttom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"mapa",
+				"mapa-direction"
+			],
+			[
+				"form",
+				"form-direction"
+			],
+			[
+				"en",
+				"enviarMensaje"
+			],
+			[
+				"re",
+				"recibirMensaje"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"h2",
+				"h2"
+			],
+			[
+				"margin-r",
+				"margin-right"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"bar",
+				"background"
+			],
+			[
+				"fo",
+				"footer"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"cam",
+				"cambio2"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"article",
+				"article"
+			],
+			[
+				"nav",
+				"nav"
+			],
+			[
+				"section",
+				"section"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"menu",
+				"menub"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"categor",
+				"categoria"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"bus",
+				"buscar"
+			],
+			[
+				"cat",
+				"catcoords"
+			],
+			[
+				"br",
+				"break"
+			],
+			[
+				"e",
+				"encontrar"
+			],
+			[
+				"metodo",
+				"metodo2"
+			],
+			[
+				"me",
+				"metodo2"
+			],
+			[
+				"lca",
+				"localizar"
+			],
+			[
+				"lati",
+				"latitud"
+			],
+			[
+				"loca",
+				"localizacion"
+			],
+			[
+				"Ta",
+				"Tamaulipas"
+			],
+			[
+				"sin",
+				"sinaloa"
+			],
+			[
+				"P",
+				"Potosí"
+			],
+			[
+				"L",
+				"Luis"
+			],
+			[
+				"S",
+				"San"
+			],
+			[
+				"ro",
+				"roo"
+			],
+			[
+				"le",
+				"leon"
+			],
+			[
+				"na",
+				"nayarit"
+			],
+			[
+				"M",
+				"Morelos"
+			],
+			[
+				"G",
+				"Guerrero"
+			],
+			[
+				"fe",
+				"federal"
+			],
+			[
+				"dis",
+				"distrito"
+			],
+			[
+				"C",
+				"Chihuahua"
+			],
+			[
+				"ca",
+				"campeche"
+			],
+			[
+				"f",
+				"footer	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"E",
+				"Ebusqueda"
+			],
+			[
+				"long",
+				"longitud"
+			],
+			[
+				"Ser",
+				"Search"
+			],
+			[
+				"Mo",
+				"modernizr"
+			],
+			[
+				"cn",
+				"contacto"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"aa",
+				"azquierda"
+			],
+			[
+				"con",
+				"contador"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"coor",
+				"coordenadas"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "blog/index.php",
+			"settings":
+			{
+				"buffer_size": 8245,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/header.html",
+			"settings":
+			{
+				"buffer_size": 2867,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 5430,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/Articulos.html",
+			"settings":
+			{
+				"buffer_size": 344,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/modificciones.php",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Windows",
+				"name": "modificciones"
+			}
+		},
+		{
+			"file": "blog/cdata/reg.php",
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/articulos.styl",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog/inc/shows.inc.php",
+			"settings":
+			{
+				"buffer_size": 4724,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog/show_news.php",
+			"settings":
+			{
+				"buffer_size": 4532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog/core/com/allow_active_news.php",
+			"settings":
+			{
+				"buffer_size": 7598,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Java/JavaC.sublime-build",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 307.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/AppServ/www/Mind On Cloud/blog/example.php",
+		"/C/AppServ/www/Mind On Cloud/blog/core/security.php",
+		"/C/AppServ/www/Mind On Cloud/blog/core/db/coreflat.php",
+		"/C/AppServ/www/Mind On Cloud/blog/docs/release.html",
+		"/C/AppServ/www/Mind On Cloud/blog/core/init.php",
+		"/C/AppServ/www/Mind On Cloud/blog/core/core.php",
+		"/C/AppServ/www/Mind On Cloud/index.php",
+		"/C/AppServ/www/Mind On Cloud/blog/show_news.php",
+		"/C/AppServ/www/Mind On Cloud/blog/inc/shows.inc.php",
+		"/C/AppServ/www/Mind On Cloud/blog/core/ckeditor/ckeditor.js",
+		"/C/AppServ/www/Mind On Cloud/blog/inc/editnews.php",
+		"/C/AppServ/www/Mind On Cloud/blog/inc/editusers.php",
+		"/C/AppServ/www/Mind On Cloud/blog/cdata/Default.tpl",
+		"/C/AppServ/www/Mind On Cloud/blog/cdata/users.txt",
+		"/C/AppServ/www/Mind On Cloud/blog/cdata/users/11.php-671042057.bak",
+		"/C/AppServ/www/Mind On Cloud/blog/skins/base/widgets/personal_login_form.tpl",
+		"/C/AppServ/www/Mind On Cloud/views/Servicios.html",
+		"/C/AppServ/www/Mind On Cloud/template.php",
+		"/C/AppServ/www/Mind On Cloud/css/Soluciones.styl",
+		"/C/AppServ/www/Mind On Cloud/Driver.php",
+		"/C/AppServ/www/Mind On Cloud/css/style2.css",
+		"/C/AppServ/www/Mind On Cloud/css/modern.css",
+		"/C/AppServ/www/Mind On Cloud/css/style.styl",
+		"/C/AppServ/www/racksR/js/index.js",
+		"/C/AppServ/www/Mind On Cloud/css/index.styl",
+		"/C/AppServ/www/Mind On Cloud/views/header.html",
+		"/C/AppServ/www/Mind On Cloud/javascript/main.js",
+		"/C/Users/eljebus/AppData/Local/Temp/Rar$DIa0.109/install01.php",
+		"/C/AppServ/www/Mind On Cloud/views/Soluciones.html",
+		"/C/AppServ/www/Mind On Cloud/.htaccessqqq",
+		"/C/AppServ/www/Mind On Cloud/blog/config/password.php",
+		"/C/AppServ/www/Mind On Cloud/.htaccess",
+		"/C/AppServ/www/Mind On Cloud/css/index.css",
+		"/C/AppServ/www/Mind On Cloud/javascript/jquery.cslider.js",
+		"/C/AppServ/www/Mind On Cloud/javascript/carousel.js",
+		"/C/AppServ/www/Mind On Cloud/javascript/carrusel.js",
+		"/C/AppServ/www/Mind On Cloud/css/style.css",
+		"/C/Program Files/PostgreSQL/9.2/data/pg_hba.conf",
+		"/C/AppServ/www/Mind On Cloud/Controlador/controlador.php",
+		"/C/AppServ/www/Mind On Cloud/views/soluciones.html",
+		"/C/AppServ/www/Cardenas/index.php",
+		"/C/AppServ/www/Nube/header.php",
+		"/C/AppServ/www/Nube/index.php",
+		"/C/AppServ/www/Nube/css/style2.css",
+		"/C/AppServ/www/cazaeventos/index.css",
+		"/C/AppServ/www/cazaeventos/m/index.php",
+		"/C/AppServ/www/cazaeventos/m/Vistas/confirmacion.php",
+		"/C/AppServ/www/cazaeventos/m/js/paginas.js",
+		"/C/AppServ/www/cazaeventos/m/js/param.js",
+		"/C/AppServ/www/cazaeventos/app/Vistas/uno.php",
+		"/C/AppServ/www/cazaeventos/app/Vistas/dos.php",
+		"/C/AppServ/www/cazaeventos/app/js/localizacion.js",
+		"/C/AppServ/www/cazaeventos/app/css/index.css",
+		"/C/AppServ/www/cazaeventos/app/base.php",
+		"/C/AppServ/www/cazaeventos/app/Conexion.php",
+		"/C/AppServ/www/cazaeventos/app/index.html",
+		"/C/AppServ/www/cazaeventos/Conexion.php",
+		"/C/AppServ/www/cazaeventos/m/css/index.css",
+		"/C/AppServ/www/cazaeventos/m/Vistas/dos.php",
+		"/C/AppServ/www/cazaeventos/m/Vistas/busqueda.php",
+		"/C/AppServ/www/cazaeventos/m/Vistas/Calendario.php",
+		"/C/AppServ/www/cazaeventos/m/Vistas/categoriass.php",
+		"/C/AppServ/www/cazaeventos/m/Vistas/menu.php",
+		"/C/AppServ/www/cazaeventos/m/Vistas/moldev.php",
+		"/C/AppServ/www/cazaeventos/m/Vistas/uno.php",
+		"/C/AppServ/www/OSM/index.php",
+		"/C/AppServ/www/OSM/test2.php",
+		"/C/AppServ/www/cazaeventos/Cercanos.php",
+		"/C/AppServ/www/cazaeventos/index.php",
+		"/C/AppServ/www/cazaeventos/css/cercanos.css",
+		"/C/AppServ/www/cazaeventos/js/localizacion.js",
+		"/C/AppServ/www/cazaeventos/js/direccion.js",
+		"/C/AppServ/www/cazaeventos/test.php",
+		"/C/AppServ/www/cazaeventos/css/index.css",
+		"/C/AppServ/www/cazaeventos/moviles/base.php",
+		"/C/Users/Jesus/AppData/Local/Temp/fz3temp-1/localizacion.js",
+		"/C/AppServ/www/cazaeventos/js/confirm.js",
+		"/C/AppServ/www/cazaeventos/Modelos/Eventos.php",
+		"/C/AppServ/www/cazaeventos/css/evento.css",
+		"/C/AppServ/www/cazaeventos/Modelos/busquedas.php",
+		"/C/AppServ/www/cazaeventos/Modelos/cat.php",
+		"/C/AppServ/www/cazaeventos/moviles/Modelos/Eventos.php",
+		"/C/AppServ/www/cazaeventos/moviles/Modelos/resultado.php",
+		"/C/AppServ/www/cazaeventos/moviles/js/localizacion.js",
+		"/C/Users/Jesus/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jesus/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/AppServ/www/cazaeventos/Proximos.php",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/uno.php",
+		"/C/Users/eljebus/Desktop/.htaccess",
+		"/C/Users/eljebus/AppData/Local/Temp/fz3temp-1/uno.php",
+		"/C/Users/eljebus/AppData/Local/Temp/fz3temp-1/Eventos.php",
+		"/C/Users/eljebus/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/AppServ/www/mejorada/mod.php",
+		"/C/Users/eljebus/AppData/Local/Temp/fz3temp-1/Admin_galery.php",
+		"/C/AppServ/www/cazaeventos/moviles/js/paginas.js",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/Prox.php",
+		"/C/AppServ/www/cazaeventos/moviles/index.php",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/moldec.php",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/categorias.php",
+		"/C/Users/eljebus/AppData/Local/Temp/fz3temp-1/categoriass.php",
+		"/C/Users/eljebus/AppData/Local/Temp/fz3temp-1/localizacion.js",
+		"/C/AppServ/www/Cardenas/.htaccess",
+		"/C/AppServ/www/cazaeventos/moviles/css/index.css",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/dos.php",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/busqueda.php",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/Calendario.php",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/moldev.php",
+		"/C/AppServ/www/cazaeventos/moviles/Vistas/resultados.php",
+		"/C/AppServ/www/cazaeventos/moviles/css/localizacion.css",
+		"/C/AppServ/www/cazaeventos/contador.php",
+		"/C/AppServ/www/cazaeventos/js/regresiva.js",
+		"/C/AppServ/www/cazaeventos/style.css",
+		"/C/AppServ/www/cazaeventos/cel.png",
+		"/C/AppServ/www/cazaeventos/Eventos.php",
+		"/C/AppServ/www/cazaeventos/js/confirmacion.js",
+		"/C/Users/eljebus/AppData/Local/Temp/fz3temp-1/cat.php",
+		"/C/AppServ/www/cazaeventos/Busquedas.php",
+		"/C/AppServ/www/cazaeventos/js/cercanos.js",
+		"/C/AppServ/www/cazaeventos/Modelos/categoria.php",
+		"/C/AppServ/www/cazaeventos/moviles/Modelos/Evento.php",
+		"/F/Docs/jcg/eduardo/consarray.php",
+		"/F/Docs/jcg/Base de Datos/rentas.php",
+		"/F/Docs/jcg/Base de Datos/registro de cliente.php",
+		"/F/Docs/jcg/Base de Datos/conectar.php",
+		"/C/Users/eljebus/AppData/Local/Temp/fz3temp-1/paginas.js",
+		"/C/AppServ/www/cazaeventos/Vistas/cabecera.php",
+		"/C/AppServ/www/cazaeventos/Vistas/letras.php",
+		"/C/AppServ/www/cazaeventos/Vistas/logo.php"
+	],
+	"find":
+	{
+		"height": 53.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"powere",
+			"cute",
+			"Edit Read more",
+			"edit",
+			"posted",
+			"powe",
+			"include",
+			"function db_user_by_name(",
+			"db_user_by_name",
+			"cn_login()",
+			"pull-menu",
+			"fami",
+			"\"",
+			"inli",
+			"16px",
+			"11pt",
+			".metrouicss p",
+			".metrouicssp",
+			".metrouicss p",
+			".metrouicss p,",
+			".metrouicss body, .metrouicss p, .metrouicss div",
+			"current",
+			"da-img",
+			"da-slide",
+			"da-slide-toleft",
+			"da-slide da-slide-toleft",
+			"da-img",
+			"metrouicss .nav-bar .nav-bar-inner .element,",
+			"metrouicss .nav-bar .nav-bar-inner .element, .metrouicss .nav-",
+			".metrouicss .link",
+			".metrouicss a",
+			"IMG",
+			"font",
+			"10pt",
+			"font-size: 10pt;",
+			"font-size:10pt",
+			".metrouicss .nav-bar .nav-bar-inner .element",
+			".metrouicss ul li, .metrouicss ol li",
+			"http",
+			"httmp",
+			"php",
+			"directi",
+			"molde",
+			"dinos",
+			"open-ubication",
+			"no es",
+			"http://cazaeventos.com/imagenes/pie.png  ",
+			"latitud",
+			"coordenadas",
+			"Tipo",
+			"tipo",
+			"tabla()",
+			"uno",
+			"pie",
+			"he",
+			"ajax",
+			"processGeocoder",
+			"rocessGeocoder",
+			"mapa",
+			"processGeocoder",
+			"erro",
+			"languaje",
+			"save",
+			"dashe",
+			"center",
+			"on('c",
+			"catego",
+			"pie",
+			"box",
+			"box-s",
+			"pie",
+			"footer",
+			"box-s",
+			"digits.png",
+			"socia",
+			"alert",
+			"fecha(",
+			"fec",
+			"fecha",
+			"alert",
+			"categoria.php",
+			"categoria",
+			"busca",
+			"alert",
+			"busqueda",
+			"cargar",
+			"molde",
+			"mostrar",
+			"localizar",
+			"Proximos",
+			"alert",
+			"Prox",
+			"encu",
+			"open-ubication",
+			"precision",
+			"dialog-confirm",
+			"#dialog-confirm",
+			"dialog-c",
+			"echo",
+			"dashe",
+			"ser",
+			"servi",
+			"dash",
+			"ef",
+			"aiz",
+			"fecha",
+			"processGeocoder",
+			"busquedas",
+			"ser",
+			"texto",
+			"dashed",
+			"DASHED",
+			"		\n",
+			"alert",
+			"mapa",
+			"estado",
+			"inio",
+			",INTERVAL 1 YEAR",
+			"1 year",
+			"inter",
+			"evento",
+			"mapa",
+			"l1",
+			"sensor",
+			"izq",
+			"iz",
+			"dashe",
+			"foo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"17px",
+			"16px",
+			"font-size: 16px;",
+			"",
+			"font-size:16px"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "blog/index.php",
+					"settings":
+					{
+						"buffer_size": 8245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/header.html",
+					"settings":
+					{
+						"buffer_size": 2867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2466,
+								2466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2688.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 5430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4754,
+								4754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5792.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/Articulos.html",
+					"settings":
+					{
+						"buffer_size": 344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/modificciones.php",
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"auto_name": "modificciones",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "blog/cdata/reg.php",
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/articulos.styl",
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "blog/inc/shows.inc.php",
+					"settings":
+					{
+						"buffer_size": 4724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3781,
+								3787
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3311.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "blog/show_news.php",
+					"settings":
+					{
+						"buffer_size": 4532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4378,
+								4378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4128.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "blog/core/com/allow_active_news.php",
+					"settings":
+					{
+						"buffer_size": 7598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6144.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 57.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true
+}
